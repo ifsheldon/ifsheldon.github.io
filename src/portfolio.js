@@ -50,7 +50,7 @@ const skills = {
   data: [
     {
       title: "Computer Vision",
-      fileName: "DataScienceImg",
+      fileName: "cv",
       skills: [
         "⚡ Working on the instersetion of Computer Vision and Computer Graphics",
         "⚡ Integrating neural networks into computer graphics systems",
@@ -83,7 +83,7 @@ const skills = {
     },
     {
       title: "Computer Graphics and Scientific Visualization",
-      fileName: "FullStackImg",
+      fileName: "cg_scivis",
       skills: [
         "⚡ Working on neural rendering",
         "⚡ Working on WebGPU-based renderers and visualization",
