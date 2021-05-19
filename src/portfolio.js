@@ -145,6 +145,17 @@ const degrees = {
       ],
       website_link: "https://www.sustech.edu.cn",
     },
+    {
+      title: "National University of Singapore",
+      subtitle: "CS Summer Workshop 2019 - Real-time Rendering",
+      logo_path: "nus_logo.png",
+      alt_name: "NUS",
+      duration: "2019.6 - 2019.8",
+      descriptions: [
+        "⚡ I have studied basics of photorealistic rendering of Computer Graphics like OpenGL and raytracing.",
+      ],
+      website_link: "https://nus.edu.sg",
+    },
   ],
 };
 
