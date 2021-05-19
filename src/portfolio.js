@@ -254,6 +254,12 @@ const contactPageData = {
     description:
       "Feel free to contact me. Looking forward to seeing your brilliant ideas on AR/MR, CG and CV!",
   },
+  blogSection: {
+    title: "Blogs",
+    subtitle:
+      "Logs for my ideas and nonsense",
+    link: "https://fengliang.io/EpisodeMacguffin",
+  },
   addressSection: {
     title: "Address",
     subtitle: "Visual Computing Center, KAUST, Thuwal, Saudi Arabia",
