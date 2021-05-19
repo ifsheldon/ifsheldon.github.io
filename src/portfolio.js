@@ -214,9 +214,35 @@ const projects = [
     title: "Using Word Embeddings as a Prior to Train CV Models",
     status: "Work in progress",
     collaborators: [],
-    description: "Using Word Embeddings as a Prior to Train CV Models",
+    description: "This project is based on an hypothesis that we human have the same latent space for visual objects and semantic concepts. In this project, we try to unify two latent spaces, semantic space in which word embeddings live and visual latent space where visual embeddings live in. This project is closely related to Visual-Semantic Embedding which originated from one Google's research.",
     link: "",
+    color: "#00B0F0",
   },
+  {
+    title: "Ground: Control Panel for PytorchLightning",
+    status: "Work in progress",
+    collaborators: [],
+    description: "Ground is intended to be a control panel that is deeply integrated with PytorchLightning. It is inspired by Tensorboard and it aims to free developers and researchers from lengthy training commands with dozens of arguments by the means of web GUIs.",
+    link: "",
+    color: "#00B0F0",
+  },
+  {
+    title: "Wenderer: WebGPU-based DVR renderer",
+    status: "Work in progress",
+    collaborators: [],
+    description: "Move the old OpenGL pipeline of DVR in Scientific Visualization to WebGPU, then everyone can see DVR demos on the web.",
+    link: "",
+    color: "#00B0F0",
+  },
+  {
+    title: "Differender: Differentiable DVR renderer",
+    status: "Work in progress",
+    collaborators: [],
+    description: "Transform the old OpenGL non-differentiable pipeline in Scientific Visualization to a differentiable one with the help of Taichi, which enables tight integration with deep learning techniques (e.g., Neural Rendering, Computer Vision)",
+    link: "",
+    color: "#00B0F0",
+  },
+
 ];
 
 // Contact Page

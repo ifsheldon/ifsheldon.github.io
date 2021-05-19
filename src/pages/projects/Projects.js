@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
+import ProjectAccordion from "../../containers/projects/ProjectAccordion";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import { projectsHeader } from "../../portfolio.js";
+import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -38,6 +38,7 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
+        <ProjectAccordion projects={projects} theme={theme} />
         <Button
           text={"More Projects"}
           className="project-button"
