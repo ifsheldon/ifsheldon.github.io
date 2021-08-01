@@ -228,20 +228,36 @@ const projects = [
   },
   {
     title: "Wenderer: WebGPU-based DVR renderer",
-    status: "Work in progress",
+    status: "v0.1",
     collaborators: [],
     description: "Move the old OpenGL pipeline of DVR in Scientific Visualization to WebGPU, then everyone can see DVR demos on the web.",
-    link: "",
+    link: "https://github.com/nanovis/Wenderer",
     color: "#00B0F0",
   },
   {
     title: "Differender: Differentiable DVR renderer",
-    status: "Work in progress",
+    status: "v0.1",
     collaborators: [],
     description: "Transform the old OpenGL non-differentiable pipeline in Scientific Visualization to a differentiable one with the help of Taichi, which enables tight integration with deep learning techniques (e.g., Neural Rendering, Computer Vision)",
-    link: "",
+    link: "https://github.com/nanovis/Differender",
     color: "#00B0F0",
   },
+  {
+    title: "Stannum: a Taichi-PyTorch interface",
+    status: "v0.2",
+    collaborators: [],
+    description: "A flexible wrapper around Taichi kernels, enabling differentiable Taichi-PyTorch hybrid pipeline",
+    link: "https://github.com/ifsheldon/stannum",
+    color: "#00B0F0",
+  },
+  {
+    title: "Pamit: Taichi mapping utils",
+    status: "v0.1",
+    collaborators: [],
+    description: "a utility for doing mapping functions quickly with Taichi",
+    link: "https://github.com/ifsheldon/pamit",
+    color: "#00B0F0",
+  }
 
 ];
 
