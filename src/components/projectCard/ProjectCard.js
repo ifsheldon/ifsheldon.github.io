@@ -4,9 +4,26 @@ import Button from "../../components/button/Button";
 
 class ProjectCard extends Component {
   render() {
-    // TODO: add collaborators and link
+    // TODO: add collaborators
     const project = this.props.project;
     const theme = this.props.theme;
+    let status_component;
+    if (project["link"] === ""){
+      status_component = <p
+          className="project-card-status"
+          style={{ color: theme.secondaryText }}
+        >
+          {project["status"]}
+        </p>
+    }else{
+      status_component = <a
+                className="project-card-status"
+                style={{ color: theme.secondaryText }}
+                href={project["link"]}
+              >
+                {project["status"]}
+              </a>
+    }
     return (
       <div
         className="project-card"
@@ -35,18 +52,7 @@ class ProjectCard extends Component {
               </p> */}
             </div>
             <div className="project-card-heading-right">
-              <p
-                className="project-card-status"
-                style={{ color: theme.secondaryText }}
-              >
-                {project["status"]}
-              </p>
-              {/* <p
-                className="project-card-location"
-                style={{ color: theme.secondaryText }}
-              >
-                {project["location"]}
-              </p> */}
+              {status_component}
             </div>
           </div>
           <p
