@@ -227,6 +227,14 @@ const projects = [
     color: "#00B0F0",
   },
   {
+    title: "MPL-Lightning",
+    status: "v0.1",
+    collaborators: [],
+    description: "An easy-to-read Lightning implementation of Meta Pseudo Label without engineering code and code smells",
+    link: "https://github.com/ifsheldon/MPL_Lightning",
+    color: "#00B0F0",
+  },
+  {
     title: "Wenderer: WebGPU-based DVR renderer",
     status: "v0.1",
     collaborators: [],
