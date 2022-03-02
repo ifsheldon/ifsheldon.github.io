@@ -38,18 +38,6 @@ class ProjectCard extends Component {
               >
                 {project["title"]}
               </h3>
-              {/* <p
-                className="project-card-company"
-                style={{ color: theme.text }}
-              >
-                <a
-                  href={project["company_url"]}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project["company"]}
-                </a>
-              </p> */}
             </div>
             <div className="project-card-heading-right">
               {status_component}
