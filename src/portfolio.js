@@ -175,12 +175,28 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
+  title: "Careers",
   subtitle: "Work and Internships",
   description:
-    "I have not taken many internships, but I am always excited about the advancements on AR/MR. I am looking forward to more job oppotunities on AR/MR and Computer Graphics!",
+    "I am always excited about the advancements on AR/MR. I am co-founding a secrete AR company. Look forward to collaborations with YOU",
   header_image_path: "experience.svg",
   sections: [
+    {
+      title: "Work Experience",
+      experiences: [
+        {
+          title: "cofounder",
+          company: "secrete...for now",
+          company_url: "https://fengliang.io/",
+          logo_path: "confidential.png",
+          duration: "March 2022 - ?",
+          location: "Shanghai, China",
+          description:
+            "What can I say? It's an exciting big plan.....",
+          color: "#6dd2fe",
+        },
+      ],
+    },
     {
       title: "Internships",
       experiences: [
