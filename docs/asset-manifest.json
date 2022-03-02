@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a722af55.chunk.css",
-    "main.js": "/static/js/main.cb8318a7.chunk.js",
-    "main.js.map": "/static/js/main.cb8318a7.chunk.js.map",
+    "main.js": "/static/js/main.ed57d5ad.chunk.js",
+    "main.js.map": "/static/js/main.ed57d5ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0403a33d.js",
     "runtime-main.js.map": "/static/js/runtime-main.0403a33d.js.map",
     "static/js/2.838a6e2a.chunk.js": "/static/js/2.838a6e2a.chunk.js",
     "static/js/2.838a6e2a.chunk.js.map": "/static/js/2.838a6e2a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.859a72b8d71b8a12e6874efa875a01e8.js": "/precache-manifest.859a72b8d71b8a12e6874efa875a01e8.js",
+    "precache-manifest.7b5b139d3310df4df3aec1da4484debb.js": "/precache-manifest.7b5b139d3310df4df3aec1da4484debb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a722af55.chunk.css.map": "/static/css/main.a722af55.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
@@ -19,7 +19,7 @@
     "static/media/cg_img.png": "/static/media/cg_img.3c82c6b1.png",
     "static/media/cloud_infrastructure.svg": "/static/media/cloud_infrastructure.dfcb7a58.svg",
     "static/media/codeInLogo.png": "/static/media/codeInLogo.b3685be8.png",
-    "static/media/confidential.png": "/static/media/confidential.93e02068.png",
+    "static/media/confidential.jpg": "/static/media/confidential.25fa1247.jpg",
     "static/media/contactMail.png": "/static/media/contactMail.d6d4086f.png",
     "static/media/data_science.svg": "/static/media/data_science.434d2b01.svg",
     "static/media/deeplearning_ai_logo.png": "/static/media/deeplearning_ai_logo.7a9b2eb0.png",
@@ -60,6 +60,6 @@
     "static/js/runtime-main.0403a33d.js",
     "static/js/2.838a6e2a.chunk.js",
     "static/css/main.a722af55.chunk.css",
-    "static/js/main.cb8318a7.chunk.js"
+    "static/js/main.ed57d5ad.chunk.js"
   ]
 }
