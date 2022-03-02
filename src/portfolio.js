@@ -188,7 +188,7 @@ const experience = {
           title: "cofounder",
           company: "secrete...for now",
           company_url: "https://fengliang.io/",
-          logo_path: "confidential.png",
+          logo_path: "confidential.jpg",
           duration: "March 2022 - ?",
           location: "Shanghai, China",
           description:
