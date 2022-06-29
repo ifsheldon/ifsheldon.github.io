@@ -65,13 +65,6 @@ const skills = {
           },
         },
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
           style: {
@@ -93,6 +86,13 @@ const skills = {
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Rust",
+          fontAwesomeClassname: "logos:rust",
           style: {
             color: "#E34F26",
           },
@@ -125,10 +125,10 @@ const degrees = {
       subtitle: "MS in Computer Science (Computer Graphics and Visualization)",
       logo_path: "kaust-logo.png",
       alt_name: "KAUST",
-      duration: "2020 - Present",
+      duration: "2020 - 2022",
       descriptions: [
-        "⚡ I am currently studying and working on Computer Graphics, Computer Vision and GPU.",
-        "⚡ Neural Rendering is my major interest and I am now integrating neural renderers into visualization pipelines.",
+        "⚡ Focus: Computer Graphics, Computer Vision and Simulation.",
+        "⚡ I worked on a differentiable TEM simulator, intending to create new ways to reconstruction and explore new applications.",
         "⚡ I also look forward to develop MR applications for visualization.",
       ],
       website_link: "https://www.kaust.edu.sa/en",
@@ -227,11 +227,11 @@ const projectsHeader = {
 // Project Page
 const projects = [
   {
-    title: "Using Word Embeddings as a Prior to Train CV Models",
+    title: "RustWHY",
     status: "Work in progress",
     collaborators: [],
-    description: "This project is based on an hypothesis that we human have the same latent space for visual objects and semantic concepts. In this project, we try to unify two latent spaces, semantic space in which word embeddings live and visual latent space where visual embeddings live in. This project is closely related to Visual-Semantic Embedding which originated from one Google's research.",
-    link: "",
+    description: "In this open-source blog, I try to explain the reasoning behind some Rust features with retrospection in language design",
+    link: "https://fengliang.io/RustWHY/",
     color: "#00B0F0",
   },
   {
@@ -239,6 +239,14 @@ const projects = [
     status: "Work in progress",
     collaborators: [],
     description: "Ground is intended to be a control panel that is deeply integrated with PytorchLightning. It is inspired by Tensorboard and it aims to free developers and researchers from lengthy training commands with dozens of arguments by the means of web GUIs.",
+    link: "",
+    color: "#00B0F0",
+  },
+  {
+    title: "Using Word Embeddings as a Prior to Train CV Models",
+    status: "Done in my bachelor thesis",
+    collaborators: [],
+    description: "This project is based on an hypothesis that we human have the same latent space for visual objects and semantic concepts. In this project, we try to unify two latent spaces, semantic space in which word embeddings live and visual latent space where visual embeddings live in. This project is closely related to Visual-Semantic Embedding which originated from one Google's research.",
     link: "",
     color: "#00B0F0",
   },
@@ -268,9 +276,9 @@ const projects = [
   },
   {
     title: "Stannum: a Taichi-PyTorch interface",
-    status: "v0.2",
+    status: "v0.6",
     collaborators: [],
-    description: "A flexible wrapper around Taichi kernels, enabling differentiable Taichi-PyTorch hybrid pipeline",
+    description: "Fusing Taichi into PyTorch to get both kernel-based and operator-based parallelism",
     link: "https://github.com/ifsheldon/stannum",
     color: "#00B0F0",
   },
