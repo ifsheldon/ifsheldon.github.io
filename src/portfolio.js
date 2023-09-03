@@ -185,14 +185,25 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "cofounder",
-          company: "secrete...for now",
-          company_url: "https://fengliang.io/",
+          title: "AI Engineer Lead",
+          company: "Shanghai Gempoll Ltd.",
+          company_url: "https://www.gempoll.com/",
           logo_path: "confidential.jpg",
           duration: "March 2022 - ?",
           location: "Shanghai, China",
           description:
             "What can I say? It's an exciting big plan.....",
+          color: "#6dd2fe",
+        },
+        {
+          title: "cofounder",
+          company: "secrete...for now",
+          company_url: "https://fengliang.io/",
+          logo_path: "gempoll_logo.svg",
+          duration: "Feb 2023 - Now",
+          location: "Shanghai, China",
+          description:
+            "Build AI R&D team from 0 to 1. Plan and build products, platforms and solutions with LLM and AIGC along with existing bussiness and enterprise future outlook.",
           color: "#6dd2fe",
         },
       ],
