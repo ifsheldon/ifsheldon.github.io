@@ -16,6 +16,7 @@
 }
 
 .experience-heading-img-div {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -59,6 +60,7 @@
     font-size: 50px;
     margin-top: 80px;
   }
+
   .experience-heading-sub-text {
     font-size: 25px;
   }

@@ -1,10 +1,5 @@
 /* Change this file to get your personal Porfolio */
 
-// Website related settings
-const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
-};
-
 //SEO Related settings
 const seo = {
   title: "Feng Liang's Metaverse",
@@ -17,12 +12,15 @@ const seo = {
   },
 };
 
+// TODO: fix layout problems on Education and Contact Me pages
+
 //Home Page
 const greeting = {
   title: "Feng Liang",
   logo_name: "Feng Liang",
   nickname: "Maple",
   subTitle: "A CGer, a CVer, a dreamer who wants to re-invent Doraemon in MR",
+  githubProfile: "https://github.com/ifsheldon",
 };
 
 const socialMediaLinks = [
@@ -83,13 +81,6 @@ const skills = {
         "⚡ Working on applications of differentiable rendering",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
         {
           skillName: "Rust",
           fontAwesomeClassname: "logos:rust",
@@ -175,32 +166,33 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Careers",
-  subtitle: "Work and Internships",
+  title: "Career",
+  subtitle: "Work and Internship",
   description:
     "I am always excited about the advancements on AR/MR. I am co-founding a secrete AR company. Look forward to collaborations with YOU",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work Experience",
+      title: "Work",
+      work: true,
       experiences: [
         {
           title: "AI Engineer Lead",
           company: "Shanghai Gempoll Ltd.",
           company_url: "https://www.gempoll.com/",
-          logo_path: "confidential.jpg",
-          duration: "March 2022 - ?",
+          logo_path: "gempoll_logo.svg",
+          duration: "Feb 2023 - Now",
           location: "Shanghai, China",
           description:
-            "What can I say? It's an exciting big plan.....",
+            "Build AI R&D team from 0 to 1. Plan and build products, platforms and solutions with LLM and AIGC along with existing bussiness and enterprise future outlook.",
           color: "#6dd2fe",
         },
         {
-          title: "cofounder",
+          title: "Cofounder",
           company: "secrete...for now",
           company_url: "https://fengliang.io/",
-          logo_path: "gempoll_logo.svg",
-          duration: "Feb 2023 - Now",
+          logo_path: "confidential.jpg",
+          duration: "March 2022 - ?",
           location: "Shanghai, China",
           description:
             "Build AI R&D team from 0 to 1. Plan and build products, platforms and solutions with LLM and AIGC along with existing bussiness and enterprise future outlook.",
@@ -235,75 +227,6 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-// Project Page
-const projects = [
-  {
-    title: "RustWHY",
-    status: "Work in progress",
-    collaborators: [],
-    description: "In this open-source blog, I try to explain the reasoning behind some Rust features with retrospection in language design",
-    link: "https://fengliang.io/RustWHY/",
-    color: "#00B0F0",
-  },
-  {
-    title: "Ground: Control Panel for PytorchLightning",
-    status: "Work in progress",
-    collaborators: [],
-    description: "Ground is intended to be a control panel that is deeply integrated with PytorchLightning. It is inspired by Tensorboard and it aims to free developers and researchers from lengthy training commands with dozens of arguments by the means of web GUIs.",
-    link: "",
-    color: "#00B0F0",
-  },
-  {
-    title: "Using Word Embeddings as a Prior to Train CV Models",
-    status: "Done in my bachelor thesis",
-    collaborators: [],
-    description: "This project is based on an hypothesis that we human have the same latent space for visual objects and semantic concepts. In this project, we try to unify two latent spaces, semantic space in which word embeddings live and visual latent space where visual embeddings live in. This project is closely related to Visual-Semantic Embedding which originated from one Google's research.",
-    link: "",
-    color: "#00B0F0",
-  },
-  {
-    title: "MPL-Lightning",
-    status: "v0.1",
-    collaborators: [],
-    description: "An easy-to-read Lightning implementation of Meta Pseudo Label without engineering code and code smells",
-    link: "https://github.com/ifsheldon/MPL_Lightning",
-    color: "#00B0F0",
-  },
-  {
-    title: "Wenderer: WebGPU-based DVR renderer",
-    status: "v0.1",
-    collaborators: [],
-    description: "Move the old OpenGL pipeline of DVR in Scientific Visualization to WebGPU, then everyone can see DVR demos on the web.",
-    link: "https://github.com/nanovis/Wenderer",
-    color: "#00B0F0",
-  },
-  {
-    title: "Differender: Differentiable DVR renderer",
-    status: "v0.1",
-    collaborators: [],
-    description: "Transform the old OpenGL non-differentiable pipeline in Scientific Visualization to a differentiable one with the help of Taichi, which enables tight integration with deep learning techniques (e.g., Neural Rendering, Computer Vision)",
-    link: "https://github.com/nanovis/Differender",
-    color: "#00B0F0",
-  },
-  {
-    title: "Stannum: a Taichi-PyTorch interface",
-    status: "v0.6",
-    collaborators: [],
-    description: "Fusing Taichi into PyTorch to get both kernel-based and operator-based parallelism",
-    link: "https://github.com/ifsheldon/stannum",
-    color: "#00B0F0",
-  },
-  {
-    title: "Pamit: Taichi mapping utils",
-    status: "v0.1",
-    collaborators: [],
-    description: "a utility for doing mapping functions quickly with Taichi",
-    link: "https://github.com/ifsheldon/pamit",
-    color: "#00B0F0",
-  }
-
-];
-
 // Contact Page
 const contactPageData = {
   contactSection: {
@@ -315,20 +238,24 @@ const contactPageData = {
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "Logs for my ideas and nonsense",
+    subtitle: "Logs for my ideas and nonsense",
     link: "https://fengliang.io/EpisodeMacguffin",
+    avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
     subtitle: "Visual Computing Center, KAUST, Thuwal, Saudi Arabia",
+    locality: "Thuwal",
+    country: "SA",
+    region: "Jeddah",
+    postalCode: "23955-6900",
+    streetAddress: "KAUST",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/kF6yeWzv9KZBfEnr5",
   },
 };
 
 export {
-  settings,
   seo,
   greeting,
   socialMediaLinks,
@@ -338,5 +265,4 @@ export {
   experience,
   projectsHeader,
   contactPageData,
-  projects,
 };

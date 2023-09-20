@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "stannum",
+      "url": "https://github.com/ifsheldon/stannum",
+      "description": "Fusing Taichi into PyTorch"
+    },
+    {
+      "name": "transprompt",
+      "url": "https://github.com/ifsheldon/transprompt",
+      "description": "Prompt-centric framework for developing LLM applications in Rust"
+    },
+    {
+      "name": "MPL_Lightning",
+      "url": "https://github.com/ifsheldon/MPL_Lightning",
+      "description": "Lightning implementation of Meta Pseudo Label"
+    },
+    {
+      "name": "Differender",
+      "url": "https://github.com/nanovis/Differender",
+      "description": "Taichi-based Differentiable SciVis Renderer for PyTorch"
+    },
+    {
+      "name": "RustyOOPatterns",
+      "url": "https://github.com/ifsheldon/RustyOOPatterns",
+      "description": "OO pattern implementations in Rust"
+    },
+    {
+      "name": "Wenderer",
+      "url": "https://github.com/nanovis/Wenderer",
+      "description": "WebGPU-based DVR Renderer"
+    }
+  ]
+}

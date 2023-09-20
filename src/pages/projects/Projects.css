@@ -17,6 +17,7 @@
 }
 
 .projects-heading-img-div {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -55,9 +56,21 @@
   font-family: "Google Sans Medium";
 }
 
+.publications-heading-text-div {
+  text-align: center;
+  font-family: "Google Sans Regular";
+  margin-top: 70px;
+}
+
+.publications-heading-text {
+  font-size: 56px;
+  font-weight: 600;
+}
+
 .repo-cards-div-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 1rem 1rem;
   margin-left: 40px;
   margin-right: 40px;
@@ -69,13 +82,15 @@
     font-size: 50px;
     margin-top: 80px;
   }
+
   .projects-heading-sub-text {
     font-size: 25px;
   }
 }
 
 @media (max-width: 768px) {
-  .projects-heading-text {
+  .projects-heading-text,
+  .publications-heading-text {
     font-size: 30px;
     margin-top: 20px;
   }

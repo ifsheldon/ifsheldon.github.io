@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import ProjectAccordion from "../../containers/projects/ProjectAccordion";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import { projectsHeader, projects } from "../../portfolio.js";
+import { greeting, projectsHeader } from "../../portfolio.js";
+import ProjectsData from "../../projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -38,14 +39,19 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        <ProjectAccordion projects={projects} theme={theme} />
+        <div className="repo-cards-div-main">
+          {ProjectsData.data.map((repo) => {
+            return <GithubRepoCard repo={repo} theme={theme} key={repo.name} />;
+          })}
+        </div>
         <Button
           text={"More Projects"}
           className="project-button"
-          href="https://github.com/ifsheldon"
+          href={greeting.githubProfile}
           newTab={true}
           theme={theme}
         />
+
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>

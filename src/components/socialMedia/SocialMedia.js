@@ -7,6 +7,7 @@ const IconWrapper = styled.span`
   i {
     background-color: ${(props) => props.backgroundColor};
   }
+
   &:hover i {
     background-color: ${({ theme }) => theme.text};
     transition: 0.3s ease-in;
@@ -23,6 +24,7 @@ export default function socialMedia(props) {
             className={`icon-button`}
             target="_blank"
             rel="noopener noreferrer"
+            key={media.name}
           >
             <IconWrapper {...media} {...props}>
               <i className={`fab ${media.fontAwesomeIcon}`}></i>
