@@ -5646,7 +5646,7 @@
         var e = Object(F.a)([
           "\n  *,\n  *::after,\n  *::before {\n    box-sizing: border-box;\n  }\n\n  body {\n    align-items: center;\n    background: ",
           ";\n    color: ",
-          ";\n    display: flex;\n    // flex-direction: column;\n    // justify-content: center;\n    // height: 100vh;\n    // margin: 0;\n    // padding: 0;\n    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n    transition: all 0.25s linear;\n  }",
+          ";\n    //display: flex;\n    // flex-direction: column;\n    // justify-content: center;\n    // height: 100vh;\n    // margin: 0;\n    // padding: 0;\n    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n    transition: all 0.25s linear;\n  }",
         ]);
         return (
           (we = function () {
@@ -5701,4 +5701,4 @@
   ]),
   [[86, 1, 2]],
 ]);
-//# sourceMappingURL=main.d30a18a2.chunk.js.map
+//# sourceMappingURL=main.2f73b09a.chunk.js.map
