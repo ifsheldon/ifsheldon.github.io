@@ -12,8 +12,6 @@ const seo = {
   },
 };
 
-// TODO: fix layout problems on Education and Contact Me pages
-
 //Home Page
 const greeting = {
   title: "Feng Liang",
